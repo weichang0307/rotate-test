@@ -22,10 +22,13 @@ function draw(){
         ctx.fillRect(0,0,600,600)
         ctx.translate(300,300)
         ctx.rotate(alpha*Math.PI/180)
-        ctx.translate(-15,-15)
         ctx.fillStyle='red'
-
-        ctx.fillRect(0,0,30,30)
+        ctx.beginPath()
+        ctx.moveTo(-10,-20)
+        ctx.lineTo(10,-20)
+        ctx.lineTo(0,20)
+        ctx.closePath()
+        ctx.fill()
     ctx.restore()
 }
 //setInterval(draw,20)
