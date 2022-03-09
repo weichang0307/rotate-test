@@ -21,7 +21,7 @@ function draw(){
         ctx.fillStyle='black'
         ctx.fillRect(0,0,600,600)
         ctx.translate(300,300)
-        ctx.rotate(alpha*Math.PI/180)
+        ctx.rotate(alpha*Math.PI/10)
         ctx.fillStyle='red'
         ctx.beginPath()
         ctx.moveTo(-10,-20)
