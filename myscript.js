@@ -5,5 +5,5 @@ window.addEventListener('deviceorientation', function(event) {
     var beta = event.beta;
     var gamma = event.gamma;
     console.log(event)
-    text.innerHTML=alpha+' '+beta+' '+gamma
+    text.innerHTML=alpha+'<br>'+beta+'<br>'+gamma
 }, false);
