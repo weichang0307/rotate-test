@@ -22,7 +22,7 @@ window.addEventListener('devicemotion', function(event) {
     alpha = event.rotationRate.alpha
     beta = event.rotationRate.beta
     gamma = event.rotationRate.gamma
-    deg+=alpha/100
+    deg+=gamma/100
     console.log(event.rotationRate)
     text.innerHTML=Math.floor(alpha)+'<br>'+Math.floor(beta)+'<br>'+Math.floor(gamma)
     draw()
